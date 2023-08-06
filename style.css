@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    position: absolute;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #1f4e35;
+    padding: 0px 6px;
+    margin: 0 10px;
+    position: fixed;
+    z-index: 99;
+}
+#nav h3{
+    /* padding: 0 ; */
+    text-transform: uppercase;
+    font-family: gilroy;
+    font-size: 12px;
+}
+#nav img{
+    width: 100px;
+}
+#nav button{
+    background: #1f4e35;
+    color: #fff;
+    padding: 10px 17px;
+    border-radius: 20px;
+}
+#page1{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    color: #fff;
+}
+#page1 h1{
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    padding: 0px 50px;
+    font-family: gilroy;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#page1 h1::before{
+    content: "Longer-lasting produce.";
+    top: -10%;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    /* line-height:10vh; */
+}
+#page1 button{
+    position: absolute;
+    background: #fff;
+    color: #1f4e35;
+    padding: 10px 24px;
+    border-radius: 20px;
+    top: 50%;
+    left: 4%;
+    border-color: transparent;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #fce8bd;
+    position: relative;
+    top: 90%;
+    border-radius: 40px;
+}
+#page2>svg{
+    position: absolute;
+    width: 30%;
+    
+}
+path{
+    fill: #ffd550;
+}
+#page2>img{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    padding:  40px 21px;
+    border-radius: 80px;
+}
+#page2>h2{
+    position: absolute;
+    padding: 68px 37px;
+    font-family: gilroy;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+#page2>h1{
+    position: absolute;
+    bottom: 10%;
+    width: 40%;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 50px;
+    font-family: gilroy;
+    color: #1f4e35;
+}
+#page3{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    color: #fff;
+    font-family: gilroy;
+}
+#page3>img{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+#page3 h1{
+    position: absolute;
+    top: 36%;
+    font-size: 60px;
+    text-transform: capitalize;
+    padding: 0px 50px;
+}
+#page3 p{
+    position: absolute;
+    width: 30%;
+    font-weight: 600;
+    text-transform: uppercase;
+     bottom:  10%;
+     right: 0;
+}
+#page3 p::after{
+    position: absolute;
+    content: "how apeel works→";
+    bottom: -89%;
+    font-size: 20px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    width: 0%;
+}
+#page4{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    position: relative;
+    top: 10%;
+    display: flex;
+    z-index: 99;
+    border-radius: 20px;
+    font-family: gilroy;
+}
+#left{
+    position: relative;
+   width: 50%;
+   height: 100%;
+   background-color: #fff;
+}
+#left h1{
+    position: absolute;
+    color: #1f4e35;
+    padding: 29px 45px;
+    font-size: 58px;
+}
+#right{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #ffd550;
+    /* background-image: url("ttps://i.pinimg.com/originals/5e/fd/e5/5efde5bbf69e936457654e2962b55daf.gif"); */
+}
+#right img{
+   position: absolute;
+   right: 0;
+   padding: 20px 25px;
+   width: 150px;
+}
+#right h1{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 600px;
+    color: #1f4e35;
+    font-size: 62px;
+}
+#page5{
+    width: 100%;
+    height: 100vh;
+    background-color: #dada;
+    position: relative;
+}
+#page5 h1{
+    width: 40%;
+    color: #1f4e35;
+    padding: 20px 5px;
+    font-size: 58px;
+    font-family: gilroy;
+}
+#page5{
+    position: absolute;
+    left: 5%;
+    color: #1f4e35;
+}
+#page6{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    z-index: 99;
+    background-image: url(https://www.foodnavigator.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/article/2022/02/25/apeel-rolls-out-in-asda-to-extend-shelf-life-it-works-by-sealing-moisture-in-and-keeping-oxygen-out/13271377-1-eng-GB/Apeel-rolls-out-in-Asda-to-extend-shelf-life-It-works-by-sealing-moisture-in-and-keeping-oxygen-out.jpg);
+   background-position: center;
+   background-size: cover;
+}
+#page6 h2{
+    position: relative;
+    left: 50%;
+    font-size: 40px;
+     font-family: gilroy;
+     top: 50%;
+     padding: 0px;
+}
+#page6 p{
+    position: relative;
+    left: 49%;
+    font-size: 32px;
+     font-family: gilroy;
+     top: 52%;
+     padding: 0px;
+     width: 40%;
+}
+#page6 button{
+    position: relative;
+    left: 49%;
+    font-size: 22px;
+     font-family: gilroy;
+     top: 54%;
+     padding: 8px 10px;
+}
+#page7{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.apeel.com/_nuxt/aqua.8abfb0e7.jpg);
+    background-size: cover;
+}
+#page7 h2{
+    color: #20201d;
+    position: absolute;
+    left: 32%;
+    top: 35%;
+    /* top: 50%; */
+    z-index: 99;
+    font-family: voyage;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+#page7 button{
+    position: absolute;
+    left: 39%;
+    padding: 15px 20px;
+     border-color: transparent;
+     font-family: gilroy;
+     font-size: 20px;
+     top: 50%;
+     background-color:#1f4e35;
+     color: #fff;
+}
